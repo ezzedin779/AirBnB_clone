@@ -6,3 +6,9 @@ font size: 14px;
 font family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
 
 }
+/* make container full window height and minus header */
+/* using vh minus px */
+
+.container {
+height: calc(100vh - 150px);
+}
